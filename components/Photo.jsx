@@ -23,6 +23,7 @@ const Photo = () => {
           }}
           className="w-[250px] h-[250px] xl:w-[400px] xl:h-[400px] mix-blend-lighten absolute"
         >
+          
           <img src="/assets/my-photo.png" alt=""/>
           
         </motion.div>
