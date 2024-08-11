@@ -1,5 +1,6 @@
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
+import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
@@ -8,9 +9,7 @@ const Home = () => {
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-12 xl:pb-20">
-
           <div className="text-center xl:text-left order-2 xl:order-none">
-            
             <h1 className="mb-3">
               <span className="h2">Hello I&apos;m</span> <br />
               <span className="h1 text-accent">Mg Panchal</span>
@@ -18,10 +17,21 @@ const Home = () => {
 
             <span className="text-xl">Full-Stack .NET Developer</span>
 
-            <p className="max-w-[500px] mb-9 mt-3 text-white/80">
-              I excel at creating elegant digital experiences and I am
-              proficient in various programming languages technology&apos;s
-            </p>
+            <div class="max-w-[550px] text-[12px] mb-9 mt-3 items-center justify-center">
+
+              <div class="rounded-lg bg-gradient-to-r from-accent via-red-500 to-orange-400 p-[1px]">
+
+                <div class="rounded-lg p-3 h-full w-full bg-primary">
+
+                  I excel at creating elegant digital experiences and I am
+                  proficient in various programming languages technology&apos;s
+
+                </div>
+
+              </div>
+
+            </div>
+
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
@@ -47,6 +57,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 };
