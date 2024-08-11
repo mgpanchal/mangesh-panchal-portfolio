@@ -61,6 +61,7 @@ const Photo = () => {
           />
         </motion.svg>
       </motion.div>
+      
     </div>
   );
 };

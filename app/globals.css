@@ -18,4 +18,23 @@
     .h3 {
         @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
     }
+
+
+    .card-wrapper {
+        @apply relative overflow-hidden rounded-2xl bg-gradient-to-b from-slate-800 to-accent/40;
+    }
+
+    .card-wrapper::before {
+        background: conic-gradient(rgba(246, 164, 0, 0.4) 0deg,
+                rgba(250, 159, 1, 1) 0deg,
+                transparent 180deg);
+
+        @apply absolute left-[-25%] top-[-0%] h-[100%] w-[200%] animate-border-spin content-[''];
+    }
+
+    .card-content {
+        @apply absolute left-[1px] top-[1px] h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-2xl bg-primary;
+    }
+
+
 }
