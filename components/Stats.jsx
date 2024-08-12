@@ -18,7 +18,7 @@ const Stats = () => {
             return (
 
               <div
-                className="flex-1 flex gap-4 items-center justify-center border-2 border-accent rounded-md p-3"
+                className="flex-1 flex gap-4 items-center justify-center xl:justify-center border-2 border-accent rounded-md p-3"
                 key={index}
               >
                 <CountUp
