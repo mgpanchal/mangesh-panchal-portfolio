@@ -23,7 +23,7 @@ const Photo = () => {
           className="w-[250px] h-[250px] xl:w-[350px] xl:h-[350px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/mangesh-panchal-photo.png"
+            src="/assets/mangesh-photo.png"
             height={350}
             width={350}
             priority

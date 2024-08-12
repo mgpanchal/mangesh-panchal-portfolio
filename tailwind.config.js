@@ -15,10 +15,10 @@ module.exports = {
 
     },
     screens: {
-      sm:'640px',
+      sm:'576px',
       md:'768px',
-      lg:'960px',
-      xl:'1080px',
+      lg:'992px',
+      xl:'1200px',
     },
     fontFamily:{
       primary:"var(--font-jetbrainsMono)",

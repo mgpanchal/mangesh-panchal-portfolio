@@ -3,12 +3,13 @@ import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import {Share_Tech_Mono} from 'next/font/google'
 
 const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-10 xl:pb-10">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-10 xl:pb-16">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <h1 className="mb-4">
               <span className="h2">Hello I&apos;m</span> <br />
