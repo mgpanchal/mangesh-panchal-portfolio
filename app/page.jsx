@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-12 xl:pb-20">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-10 xl:pb-10">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <h1 className="mb-4">
               <span className="h2">Hello I&apos;m</span> <br />
@@ -17,7 +17,7 @@ const Home = () => {
 
             <span className="text-xl">Sr. Full-Stack, .NET Developer</span>
 
-            <div class="card-wrapper h-[120px] w-[550px] mt-4 mb-4">
+            <div class="card-wrapper h-[120px] xl:w-[550px] mt-4 mb-4">
               <div class="card-content flex items-center justify-center text-xs">
                 <div class="text-center p-5">
                 I’m a <strong>Sr. Full-Stack Developer</strong> with strong skills in .NET MVC, .NET Core, React, and Node.js. 

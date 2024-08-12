@@ -20,12 +20,12 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[250px] h-[250px] xl:w-[400px] xl:h-[400px] mix-blend-lighten absolute"
+          className="w-[250px] h-[250px] xl:w-[350px] xl:h-[350px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/my-photo.png"
-            height={500}
-            width={500}
+            src="/assets/mangesh-panchal-photo.png"
+            height={350}
+            width={350}
             priority
             quality={100}
             alt=""
@@ -35,7 +35,7 @@ const Photo = () => {
 
         {/* circle */}
         <motion.svg
-          className="w-[250px] xl:w-[400px] h-[250px] xl:h-[400px]"
+          className="w-[250px] xl:w-[350px] h-[250px] xl:h-[350px]"
           fill="transparent"
           viewBox="0 0 498 498"
           xmlns="http://www.w3.org/2000/svg"

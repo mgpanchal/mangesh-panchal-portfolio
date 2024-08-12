@@ -8,7 +8,7 @@
     }
 
     .h1 {
-        @apply text-[40px] xl:text-[70px] leading-[1.1] font-semibold;
+        @apply text-[34px] xl:text-[64px] leading-[1.1] font-semibold;
     }
 
     .h2 {
@@ -25,8 +25,8 @@
     }
 
     .card-wrapper::before {
-        background: conic-gradient(rgba(246, 164, 0, 0.4) 0deg,
-                rgba(250, 159, 1, 1) 0deg,
+        background: conic-gradient(rgba(255, 216, 139, 0.4) 0deg,
+                rgb(6, 255, 6) 0deg,
                 transparent 180deg);
 
         @apply absolute left-[-25%] top-[-0%] h-[100%] w-[200%] animate-border-spin content-[''];
