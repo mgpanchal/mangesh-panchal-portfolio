@@ -21,7 +21,7 @@
 
 
     .card-wrapper {
-        @apply relative overflow-hidden rounded-2xl bg-gradient-to-b from-slate-800 to-accent/40;
+        @apply relative overflow-hidden rounded-2xl bg-gradient-to-b from-slate-800 to-lime-400;
     }
 
     .card-wrapper::before {

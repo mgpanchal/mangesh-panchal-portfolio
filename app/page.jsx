@@ -3,13 +3,13 @@ import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
-import {Share_Tech_Mono} from 'next/font/google'
+import { Share_Tech_Mono } from "next/font/google";
 
 const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-10 xl:pb-16">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-10 xl:pb-8">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <h1 className="mb-4">
               <span className="h2">Hello I&apos;m</span> <br />
@@ -18,13 +18,15 @@ const Home = () => {
 
             <span className="text-xl">Sr. Full-Stack, .NET Developer</span>
 
-            <div class="card-wrapper h-[120px] xl:w-[550px] mt-4 mb-4">
+            <div class="card-wrapper h-[120px] xl:w-[550px] mt-8 mb-8">
               <div class="card-content flex items-center justify-center text-xs">
                 <div class="text-center p-5">
-                I’m a <strong>Sr. Full-Stack Developer</strong> with strong skills in .NET MVC, .NET Core, React, and Node.js. 
-                I excel in full-stack development and database management (MSSQL, PostgreSQL), and have 
-                experience with AWS and Azure for cloud solutions. My focus is on delivering high-quality, 
-                scalable applications.
+                  I’m a <strong>Sr. Full-Stack Developer</strong> with strong
+                  skills in .NET MVC, .NET Core, React, and Node.js. I excel in
+                  full-stack development and database management (MSSQL,
+                  PostgreSQL), and have experience with AWS and Azure for cloud
+                  solutions. My focus is on delivering high-quality, scalable
+                  applications.
                 </div>
               </div>
             </div>
