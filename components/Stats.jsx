@@ -16,7 +16,6 @@ const Stats = () => {
         <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
           {stats.map((item, index) => {
             return (
-
               <div
                 className="flex-1 flex gap-4 items-center justify-center xl:justify-center border-2 border-accent rounded-md p-3"
                 key={index}
@@ -34,10 +33,7 @@ const Stats = () => {
                 >
                   {item.text}
                 </p>
-                
               </div>
-
-
             );
           })}
         </div>
